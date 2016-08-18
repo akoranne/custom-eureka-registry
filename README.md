@@ -4,7 +4,7 @@ This is a sample project that creates a registry server.
 
 To build it..
 
-`$> mvn clean package`
+`$> mvnw clean package`
 
 Push the app to cloud foundry
 
