@@ -1,0 +1,7 @@
+---
+applications:
+- name: custom-eureka-registry
+  memory: 512M
+  instances: 1
+  host: custom-eureka-registry
+  path: target/custom-eureka-registry-0.1.1-SNAPSHOT.jar
