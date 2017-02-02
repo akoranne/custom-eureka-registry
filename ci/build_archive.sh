@@ -17,4 +17,4 @@ export GRADLE_OPTS="-Dorg.gradle.native=false"
 # move all manifests file to target
 cp manifest.yml  ../build-output/
 
-cp build/libs/*.jar ../build-output/
+cp target/*.jar ../build-output/
