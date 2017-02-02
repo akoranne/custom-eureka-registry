@@ -9,7 +9,7 @@ resources:
 - name: service-repo
   type: git
   source:
-    uri: https://github.com/akoranne/kill-java.git
+    uri: https://github.com/akoranne/custom-eureka-registry.git
     branch: master
 - name: deploy-dev-env
   type: cf
