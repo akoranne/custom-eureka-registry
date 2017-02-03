@@ -1,7 +1,7 @@
 ######################
 # Project Specific
 ######################
-/build/www/**
+
 
 ######################
 # Eclipse
@@ -9,21 +9,20 @@
 *.pydevproject
 .project
 .metadata
-/bin/**
-/tmp/**
-/tmp/**/*
+bin/
+tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
 .classpath
-.settings/**
+.settings/
 .loadpath
-/src/main/resources/rebel.xml
+src/main/resources/rebel.xml
 
 # External tool builders
-.externalToolBuilders/**
+.externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
 *.launch
@@ -37,7 +36,7 @@ local.properties
 ######################
 # Intellij
 ######################
-.idea/**
+.idea/
 *.iml
 *.iws
 *.ipr
@@ -47,13 +46,13 @@ local.properties
 ######################
 # Maven
 ######################
-/log/**
-/target/**
+log/
+target/
 
 ######################
 # Gradle
 ######################
-.gradle/**
+.gradle/
 
 ######################
 # Package Files
@@ -88,10 +87,10 @@ Desktop.ini
 ######################
 # Directories
 ######################
-/build/**
-/bin/**
-/spring_loaded/**
-/deploy/**
+build/
+bin/
+spring_loaded/
+deploy/
 
 ######################
 # Logs
