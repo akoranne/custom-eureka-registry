@@ -1,4 +1,4 @@
-package facade;
+package io.sarkkom;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
