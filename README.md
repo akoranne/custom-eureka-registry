@@ -8,11 +8,11 @@ To build it..
 
 Push the app to cloud foundry
 
-`$> cf push registry -p target/registry-0.0.1-SNAPSHOT.jar -m 256M`
+`$> cf push custom-euerka-registry -p target/registry-0.0.1-SNAPSHOT.jar -m 512M`
 
 
 After you push it, create a CUPS service
 
-`$> cf cups service-registry -r https://registry.local.pcfdev.io`
+`$> cf cups eureka-service -r https://registry.local.pcfdev.io`
 
-Bind the `service-registry` to any of your app. You should be able to manage it.
+Bind the `eureka-service` to any of your app. You should be able to manage it.
