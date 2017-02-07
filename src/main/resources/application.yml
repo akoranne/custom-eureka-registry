@@ -1,11 +1,5 @@
 server:
-  application:
-    name: registry-service
   port: ${PORT:8761}
-
-security:
-  basic:
-    enabled: false
 
 eureka:
   client:
