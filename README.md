@@ -1,6 +1,6 @@
-# Simple Registry
+# Service Registry
 
-This is a sample project that creates a registry server.
+This is example of OSS Netflix Eureka-based service registry server.
 
 To build it..
 
@@ -8,11 +8,13 @@ To build it..
 
 Push the app to cloud foundry
 
-`$> cf push custom-euerka-registry -p target/registry-0.0.1-SNAPSHOT.jar -m 512M`
+`$> cf push custom-eureka-registry -p target/service-registry-0.0.1-SNAPSHOT.jar -m 512M`
 
 
 After you push it, create a CUPS service
 
-`$> cf cups eureka-service -r https://registry.local.pcfdev.io`
+`$> cf cups custom-service-registry -r https://custom-eureka-registry.local.pcfdev.io`
 
-Bind the `eureka-service` to any of your app. You should be able to manage it.
+Bind the `custom-service-registry` to any of your app. You should be able to manage it.
+
+On PCF, please use service registry provided by Spring Cloud Services. 
