@@ -1,4 +1,4 @@
-package com.sakx.developer.registry;
+package com.sakx.registry;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.sakx.developer.registry;
+package com.sakx.registry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,8 +8,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Component
-@EnableAutoConfiguration
 @EnableEurekaServer
 @RestController
 @SpringBootApplication

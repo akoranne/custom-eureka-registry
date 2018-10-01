@@ -37,16 +37,18 @@ src/main/resources/rebel.xml
 ######################
 # Intellij
 ######################
-.idea/
+.idea
 *.iml
 *.iws
 *.ipr
 *.ids
 *.orig
+.apt_generated
 
 ######################
 # Maven
 ######################
+.mvn
 log/
 target/
 
